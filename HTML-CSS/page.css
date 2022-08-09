@@ -1,0 +1,68 @@
+.home-page {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+
+.left-part {
+    background-color: #F5F5F5;
+    height: 1000px;
+    padding-left: 20%;
+}
+
+.right-part {
+    background-color:rgb(201,148,132);
+    height: 1000px;
+}
+
+.Navbar {
+    display: flex;
+}
+.pages {
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+}
+
+.social-media-icon {
+    display: flex;
+    gap: 10%;
+}
+
+
+.login-from {
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: -150px;
+    padding-left: 25px;
+    background-color: white;
+    border: 4px solid rgb(158, 155, 149);
+    
+} 
+
+.login-from > label {
+    margin-top: 5px;
+}
+
+.name-section {
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    background-color: #FAFAFA;
+    width: 220px;
+}
+
+.name-section > input {
+    width: 100px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.Comments-section > input {
+    height: 65px;
+}

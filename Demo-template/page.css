@@ -24,6 +24,11 @@
     gap: 20px;
 }
 
+.pages > a{
+    text-decoration: none;
+    color: black;
+}
+
 .social-media-icon {
     display: flex;
     gap: 10%;
@@ -41,28 +46,65 @@
     
 } 
 
-.login-from > label {
-    margin-top: 5px;
-}
-
 .name-section {
     display: flex;
     gap: 10px;
 }
 
 input{
+    width: 260px;
+    height: 20px;
+    border: 1px solid#a5a2a2;
     background-color: #FAFAFA;
-    width: 220px;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 
 .name-section > input {
-    width: 100px;
+    width: 120px;
+    height: 20px;
+    border: 1px solid#a5a2a2;
 }
 
 .btn {
     margin-top: 20px;
+    color: rgb(201,148,132);
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(201,148,132);
 }
 
 .Comments-section > input {
     height: 65px;
+}
+
+.navbar-heading {
+    color: rgb(201,148,132);
+}
+
+.heading {
+  font-size: 30px;
+}
+.text-heading {
+    color: rgb(214, 211, 211);
+}
+
+.label-of-info {
+    margin-bottom: -10px;
+}
+
+.user-info {
+    font-size: 16px;
+    font-weight: 600;
+    color: #706d6d;
+}
+
+.social-media-heading {
+    margin-top: 50px;
+    color: rgb(201,148,132);
+}
+
+.labels > span {
+    color: red;
 }

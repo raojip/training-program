@@ -46,16 +46,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <?php
-echo "<h2>Output</h2>";
-echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $website;
-echo "<br>";
-echo $comment;
-echo "<br>";
-echo $gender;
+  echo "<h2>Output</h2>";
+  echo $name;
+  echo "<br>";
+  echo $email;
+  echo "<br>";
+  echo $website;
+  echo "<br>";
+  echo $comment;
+  echo "<br>";
+  echo $gender;
 ?>
 
 </body>

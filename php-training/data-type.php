@@ -45,7 +45,7 @@ var_dump($x);
 <br />
 
 <?php
-// we create a constant, use the define() function.
+// we create a constant, useing the define() function.
 define("GREETING", "Hii I am raoji patil");
 echo GREETING;
 ?>

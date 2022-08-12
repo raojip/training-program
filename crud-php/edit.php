@@ -1,17 +1,12 @@
 <?php
-// including the database connection file
 include_once("config.php");
 
-if(isset($_POST['update']))
-{	
+if(isset($_POST['update'])) {	
 
 	$id = mysqli_real_escape_string($mysqli, $_POST['id']);
-	
 	$name = mysqli_real_escape_string($mysqli, $_POST['name']);
 	$age = mysqli_real_escape_string($mysqli, $_POST['age']);
 	$email = mysqli_real_escape_string($mysqli, $_POST['email']);	
-	
-	// checking empty fields
 	if(empty($name) || empty($age) || empty($email)) {	
 			
 		if(empty($name)) {

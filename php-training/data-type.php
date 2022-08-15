@@ -27,9 +27,8 @@ echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 <br />
 
 <?php
-echo(abs(-6.7));  // returns 6.7
+echo(abs(-6.7)); 
 ?>
-
 
 <br />
 

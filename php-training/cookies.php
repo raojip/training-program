@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php  
-    setcookie('test', 45, time()+(60*60*24*7));
+    setcookie('test', 45, time()+(60*60*24*7));    // (name, id, time);
 
     $var = $_COOKIE['test'];
     echo $var

@@ -87,7 +87,7 @@ input{
   font-size: 30px;
 }
 .text-heading {
-    color: rgb(214, 211, 211);
+    color: rgb(92, 92, 92);
 }
 
 .label-of-info {
@@ -107,4 +107,11 @@ input{
 
 .labels > span {
     color: red;
+}
+
+.address-div {
+    display: flex;
+}
+.icons {
+    margin: 20px 5px 0px 0px;
 }
